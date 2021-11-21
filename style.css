@@ -1,0 +1,128 @@
+
+*{
+    box-sizing: border-box;
+  }
+  html{
+      scroll-behavior: smooth;
+    }
+  #home{
+      background-image: url(./images/h_img.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+  }
+  #home > p{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+  }
+  h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.logo{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#about-section{
+    font-family: 'Poppins', sans-serif;
+}
+#services-section{
+    background-image: url(./images/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+}
+#What-we-do{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.portfolio{
+    margin-top: 30px;
+}
+#design,#development,#product{
+    display: none;
+} 
+#work ,#work1 ,#work2 ,#work3 ,#work4 ,#work5 ,#work6 ,#work7 {
+    position: relative;
+    height: 300px;
+
+}
+#mouseenter,#mouseenter1,#mouseenter2,#mouseenter3,#mouseenter4,#mouseenter5,#mouseenter6,#mouseenter7{
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 1%;
+    background-color:rgba(255, 255, 255, 0.456);
+    position: absolute;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50%;
+}
+.contact-us {
+    background-image: url(./images/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.form-control{
+  background-color: transparent;
+
+}
+
+.form-control::placeholder {
+  color: #ffffff;
+
+}
+input[type=text], input[type=email] {
+    width: 40%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  textarea{
+    border: 1px solid #ccc;
+    width: 80%;
+    background: transparent;
+  }
+  textarea{
+      border-radius: 5px;
+    }
+    textarea::placeholder{
+      color: #ffffff;
+    }
+    button {
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: auto;
+        background: transparent;
+      }
+    button:hover {
+      opacity: 0.8;
+    }
+    footer{
+        text-align: center;
+    }
+    footer,img{
+        padding: 5px;
+        padding-top: 10px;
+    }
+    
+
